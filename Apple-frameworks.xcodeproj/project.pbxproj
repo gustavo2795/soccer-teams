@@ -7,18 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		91A770FC2C8FC3BB008E45F3 /* Apple_frameworksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A770FB2C8FC3BB008E45F3 /* Apple_frameworksApp.swift */; };
-		91A770FE2C8FC3BB008E45F3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A770FD2C8FC3BB008E45F3 /* ContentView.swift */; };
+		91A770FC2C8FC3BB008E45F3 /* Soccer_TeamsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A770FB2C8FC3BB008E45F3 /* Soccer_TeamsApp.swift */; };
+		91A770FE2C8FC3BB008E45F3 /* TeamsGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A770FD2C8FC3BB008E45F3 /* TeamsGridView.swift */; };
 		91A771002C8FC3BC008E45F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91A770FF2C8FC3BC008E45F3 /* Assets.xcassets */; };
 		91A771032C8FC3BC008E45F3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91A771022C8FC3BC008E45F3 /* Preview Assets.xcassets */; };
+		91A7710A2C8FC435008E45F3 /* SoccerTeam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A771092C8FC435008E45F3 /* SoccerTeam.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		91A770F82C8FC3BB008E45F3 /* Apple-frameworks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Apple-frameworks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		91A770FB2C8FC3BB008E45F3 /* Apple_frameworksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_frameworksApp.swift; sourceTree = "<group>"; };
-		91A770FD2C8FC3BB008E45F3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		91A770FB2C8FC3BB008E45F3 /* Soccer_TeamsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Soccer_TeamsApp.swift; sourceTree = "<group>"; };
+		91A770FD2C8FC3BB008E45F3 /* TeamsGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsGridView.swift; sourceTree = "<group>"; };
 		91A770FF2C8FC3BC008E45F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		91A771022C8FC3BC008E45F3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		91A771092C8FC435008E45F3 /* SoccerTeam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoccerTeam.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +53,9 @@
 		91A770FA2C8FC3BB008E45F3 /* Apple-frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				91A770FB2C8FC3BB008E45F3 /* Apple_frameworksApp.swift */,
-				91A770FD2C8FC3BB008E45F3 /* ContentView.swift */,
+				91A770FB2C8FC3BB008E45F3 /* Soccer_TeamsApp.swift */,
+				91A770FD2C8FC3BB008E45F3 /* TeamsGridView.swift */,
+				91A771092C8FC435008E45F3 /* SoccerTeam.swift */,
 				91A770FF2C8FC3BC008E45F3 /* Assets.xcassets */,
 				91A771012C8FC3BC008E45F3 /* Preview Content */,
 			);
@@ -137,8 +140,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91A770FE2C8FC3BB008E45F3 /* ContentView.swift in Sources */,
-				91A770FC2C8FC3BB008E45F3 /* Apple_frameworksApp.swift in Sources */,
+				91A770FE2C8FC3BB008E45F3 /* TeamsGridView.swift in Sources */,
+				91A7710A2C8FC435008E45F3 /* SoccerTeam.swift in Sources */,
+				91A770FC2C8FC3BB008E45F3 /* Soccer_TeamsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

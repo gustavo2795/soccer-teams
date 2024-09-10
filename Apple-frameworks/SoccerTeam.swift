@@ -1,4 +1,4 @@
-struct SoccerTeam {
+struct SoccerTeam: Hashable {
     let name: String
     let imageName: String
     let urlString: String
@@ -21,7 +21,7 @@ struct mockedData {
         ),
         SoccerTeam(
             name: "São Paulo",
-            imageName: "sao_paulo",
+            imageName: "saopaulo",
             urlString: "https://www.saopaulofc.net",
             description: "São Paulo Futebol Clube, a powerhouse from São Paulo, is one of Brazil's most successful teams with multiple international titles."
         ),
@@ -51,7 +51,7 @@ struct mockedData {
         ),
         SoccerTeam(
             name: "Atlético Mineiro",
-            imageName: "atletico_mineiro",
+            imageName: "atletico-mineiro",
             urlString: "https://www.atletico.com.br",
             description: "Clube Atlético Mineiro, from Belo Horizonte, is one of Brazil's most traditional and successful soccer clubs."
         ),
@@ -75,7 +75,7 @@ struct mockedData {
         ),
         SoccerTeam(
             name: "Athletico Paranaense",
-            imageName: "athletico_paranaense",
+            imageName: "atlpr",
             urlString: "https://www.athletico.com.br",
             description: "Club Athletico Paranaense, based in Curitiba, is a modern club known for its innovative management and competitive team."
         ),
@@ -111,13 +111,13 @@ struct mockedData {
         ),
         SoccerTeam(
             name: "Sport Recife",
-            imageName: "sport_recife",
+            imageName: "sport",
             urlString: "https://www.sportrecife.com.br",
             description: "Sport Club do Recife, based in Recife, is a traditional club from the Northeast, known for its passionate supporters."
         ),
         SoccerTeam(
             name: "Red Bull Bragantino",
-            imageName: "redbull_bragantino",
+            imageName: "bragantino",
             urlString: "https://www.redbullbragantino.com.br",
             description: "Red Bull Bragantino, based in Bragança Paulista, is a rising team in Brazilian soccer backed by significant investment."
         ),
